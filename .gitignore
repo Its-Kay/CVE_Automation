@@ -1,0 +1,11 @@
+# PyCharm
+./.idea
+
+# Script Run Output:
+CVEs-November-2023/
+
+# Code Coverage Output:
+htmlcov/
+
+# Pytest cache
+.pytest_cache/

@@ -1,0 +1,19 @@
+{
+    "https://cloud.google.com/feeds/google-cloud-security-bulletins.xml": {
+        "date": "updated",
+        "title": "title",
+        "link": "link",
+        "description": "content",
+        "extra_details": null,
+        "content_parse": true,
+    },
+    "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json": {
+        "date": "dateAdded",
+        "title": "vulnerabilityName",
+        "link": null,
+        "description": "shortDescription",
+        "extra_details": ["requiredAction", "knownRansomwareCampaignUse", "notes"],
+        "cve_id_tag": "cveID",
+        "content_parse": false,
+    }
+}
