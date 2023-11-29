@@ -4,9 +4,10 @@ from datetime import datetime
 from app.utils import clean_description
 
 
-def create_directory(directory_name: str) -> Path:
+def create_directory(directory_name: str) -> str:
     if not os.path.exists(directory_name):
-        return os.makedirs(directory_name)
+        os.makedirs(directory_name)
+    return directory_name
 
 
 def write_to_markdown(
